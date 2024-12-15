@@ -25,7 +25,7 @@ const Register = () => {
       .oneOf([Yup.ref("password"), null], "Passwords must match")
       .required("Confirm Password is required"),
   });
-  console.log(data)
+  // console.log(data)
   return (
     <div className=" w-full h-screen flex  items-center justify-evenly ">
       <div className="leftDiv">
